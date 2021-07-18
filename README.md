@@ -43,3 +43,6 @@ The program should:
 4.The application should create a new table if necessary and enter the following values: a. Event id b. Event duration c. Type and Host if applicable d. "alert" set to True if applicable
 
 In the example above, the event scsmbstgrb duration is 1401377495216 - 1491377495213 = 3ms The longest event is scsmbstgrc (1491377495218 - 1491377495210 = 8ms)
+
+
+Improvements : We can implement Multithreading using Spring @ASYNC AND CompletableFutures 
